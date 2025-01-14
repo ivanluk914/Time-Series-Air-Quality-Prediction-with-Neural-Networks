@@ -12,8 +12,6 @@ The project is divided into two tasks:
 Both tasks use neural network models trained on rigorously preprocessed data, with model performance evaluated through a variety of metrics.
 
 
----
-
 ## Dataset
 **`AirQualityUCI_Modified.xlsx`**
 - **Source**: UCI Machine Learning Repository.
@@ -22,7 +20,6 @@ Both tasks use neural network models trained on rigorously preprocessed data, wi
   - Includes pollutant concentrations such as carbon monoxide (CO), benzene, and nitrogen oxides (NOx).
   - Dataset was **modified** and pre-processed specifically for this project. Missing values are marked as `-200` in the raw data.
 
----
 
 ## Project Components
 
@@ -60,7 +57,7 @@ Both tasks use neural network models trained on rigorously preprocessed data, wi
   - Root Mean Squared Error (RMSE).
   - Mean Absolute Error (MAE).
 
----
+
 
 ## Results
 
@@ -76,7 +73,7 @@ Both tasks use neural network models trained on rigorously preprocessed data, wi
 - **Root Mean Squared Error (RMSE)**: 61.47
 - **Mean Absolute Error (MAE)**: 37.97
 
----
+
 
 ## Requirements
 ### Python Environment:
@@ -87,7 +84,7 @@ Install the dependencies using:
 pip install pandas numpy matplotlib seaborn tensorflow scikit-learn
 ```
 
----
+
 
 ## Usage
 1. **Pre-trained Models**:
@@ -104,19 +101,17 @@ pip install pandas numpy matplotlib seaborn tensorflow scikit-learn
      - Confusion Matrix (classification).
      - Actual vs Predicted graphs (regression).
 
----
+
 
 ## Acknowledgements
 - Dataset sourced from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php).
 - Feature Engineering inspired by resources on data imputation, normalization, and mutual information for feature selection.
 
----
 
 ## Notes
 - Pre-trained models can be fine-tuned or directly utilized for prediction tasks.
 - Always ensure the dataset follows the preprocessing structure specified in the notebook.
 
----
 
 ## License
 MIT License. Feel free to use and modify the code, but cite the repository appropriately.
